@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #ffafbd , #ffc3a0);
+}
+
+.header {
+    font-family: 'Trebuchet MS';
+    color: white;
+    font-size: 30px;
+}
+.tool-section {
+    display: flex;
+    align-items: center;
+    background-color: #C2F4E9;
+    padding: 0px 70px;
+    filter: drop-shadow(30px 10px 50px black);
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    margin: 20px;
+}
+
+.vertical div {
+    background-color: #b6b6b6;
+    width: 20px;
+    min-height: 20px;
+    border: 2px white solid;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sketch, .erase, .reset {
+    padding: 5px 20px;
+    font-family: "Varela Round";
+    font-size: 15px;
+}
+
+.erase {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sketch {
+    background-color: #90ee90;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset {
+    background-color: rgb(245, 88, 88);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.erase:hover {
+    background-color: darkblue;
+}
+
+.sketch:hover {
+    background-color: yellowgreen;
+}
+
+.reset:hover {
+    background-color: red;
+}
